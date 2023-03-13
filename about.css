@@ -31,7 +31,8 @@ main {
 }
 
 .abt img {
-    width: 75em;
+    width: 50%;
+    margin-left: 120px;
 }
 
 .about:after {
