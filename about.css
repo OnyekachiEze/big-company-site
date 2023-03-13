@@ -95,6 +95,9 @@ main {
 }
 
 @media (min-width: 300px) and (max-width: 768px) {
+    main {
+        margin-left: 10px;
+    }
     .aboutt {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         max-width: 250px;
