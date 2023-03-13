@@ -311,7 +311,8 @@ span {
 
   .v  {
     position: relative;
-    left: 150px;
+    left: 450px;
+    text-align: center;
   }
 
   .o {
