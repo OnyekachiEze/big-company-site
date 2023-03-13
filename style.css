@@ -1,0 +1,458 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons {
+  background-color: #ff0000;
+  cursor: pointer;
+}
+
+i {
+  background-color: red;
+  position: relative;
+  left: 1100px;
+  color: white;
+}
+
+
+
+.logo {
+  width: 9%;
+  border-radius: 50%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;  
+  position: fixed;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color:green;
+  transition: 3s;
+}
+
+
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+
+  .navbar {
+    background-color: green;
+    color: white;
+  }
+
+  .icons {
+    background-color: red;
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .icons i {
+    margin-left: 12px;
+  }
+
+}
+
+@media screen and (max-width: 6000px) {
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .icons {
+    background-color: red;
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .logo {
+    position: relative;
+    top: 12px;
+  }
+
+  i {
+    background-color: red;
+    padding: 12px;
+    position: relative;
+    left: auto;
+    color: white;
+    display: flex;
+  }
+
+  .slideshow-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+  }
+
+}
+
+
+.mySlides {
+  display: none;
+}
+
+.slide-img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 20%;
+  height: 50%;
+}
+
+/* Caption text */
+.text {
+  font-size: 45px;
+  font-weight: bolder;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 1000px;
+  width: 100%;
+  text-align: center;
+}
+
+span {
+  color: red;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px
+  }
+  .icons {
+    background-color: red;
+    margin-bottom: 0;
+    width: 100%;
+  }
+}
+
+.business {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 42px;
+}
+
+.our {
+  text-align: center;
+}
+
+/* Float four columns side by side */
+.column {
+  margin-left: 30px;
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 32px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .icons {
+    background-color: red;
+    margin-bottom: 0;
+    width: 104%;
+  }
+  .column {
+    margin: 0;
+    float: left;
+    width: 43%;
+    padding: 10px;
+    font-weight: bolder;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    margin: 0;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .left {
+    float: right;
+    margin-left: 220px;
+  }
+  
+  .chica {
+    float: none;
+    width: 10%;
+    height: 300px;
+    margin-left: 1120px;
+  }
+  
+  ul {
+    list-style-type: circle;
+    margin-left: 1120px;
+  }
+
+  li {
+    font-weight: bolder;
+  }
+  
+  .test {
+    float:none;
+    text-align:none;
+    margin-left:4420px;
+  }
+
+  .v  {
+    position: relative;
+    left: 120px;
+  }
+
+  .o {
+    position: relative;
+    left: 130px;
+    text-align: center;
+  }
+  .left hr {
+    position: relative;
+    left: 150px;
+  }
+
+  .left p {
+    position: relative;
+    left: 50px;
+  }
+
+  .val {
+    text-align: center;
+  }
+  
+  .val h1 {
+    color: red;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+  
+  .val p {
+    font-weight: bolder;
+    letter-spacing: 12px;
+  }
+
+
+  
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.read {
+  background-color: red;
+  color: white;
+  border-radius: 20%;
+  padding: 12px;
+  border-color: red;
+}
+
+.left {
+  float: right;
+  margin-right: 220px;
+}
+
+.chica {
+  float: left;
+  width: 30%;
+  margin-left: 120px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.test {
+  text-align: justify;
+  margin-left: 620px;
+}
+
+.val {
+  text-align: center;
+}
+
+.val h1 {
+  color: red;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.val p {
+  font-weight: bolder;
+  letter-spacing: 12px;
+}
+
+.ind h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  margin-top: 90px;
+}
+
+.ind p {
+  text-align: center;
+  font-weight: lighter;
+}
+
+.ind hr {
+  width: 22px;
+  height: 2px;
+  background-color: red;
+  border-color: red;
+}
+
+.cardd {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  float: left;
+  margin-left: 75px;
+}
+
+.cardd h1 {
+  font-size: 22px;
+}
+
+.price {
+  color: grey;
+  font-size: 12px;
+}
+
+.brands h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  margin-top: 620px;
+}
+
+.brands hr {
+  width: 22px;
+  height: 2px;
+  background-color: red;
+  border-color: red;
+}
+
+.brands img {
+  width: 16%;
+}
+
+@media screen and (max-width: 600px) { 
+  .brands h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 1300px;
+  }
+  
+  .brands hr {
+    width: 30%;
+    height: 2px;
+    background-color: red;
+    border-color: red;
+  }
+  
+  .brands img {
+    width: 32%;
+  }
+
+
+}
