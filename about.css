@@ -6,6 +6,13 @@ main {
     margin-left: 50px;
 }
 
+.abt h1 {
+    margin-top: 120px;
+    text-align: center;
+    background-color: darkgray;
+    padding: 120px;
+}
+
 .abt h2 {
     font-weight: bolder;
     font-size: 30px;
@@ -23,18 +30,26 @@ main {
     margin: 42px;
 }
 
-.aboutt {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 300px;
+.abt img {
+    width: 75em;
+    height: 30em;
+    margin-left: 42px;
 }
-
 
 .about:after {
     content: "";
     display: table;
     clear: both;
+}
+
+.aboutt {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    margin-left: 75px;
 }
 
 .about img {
@@ -52,11 +67,46 @@ main {
 .vertical {
     border-left: 6px solid red;
     height: 90px;
-    position:absolute;
+    position: absolute;
 }
 
 .about p {
     text-align: center;
-    font-style:oblique;
+    font-style: oblique;
     margin: 12px;
+}
+
+#our img {
+    width: 30%;
+    background-color: red;
+    padding: 100px;
+    margin-left: 420px;
+}
+
+#our hr {
+    width: 30px;
+    height: 4px;
+    background-color: red;
+    border-color: red;
+    margin-right: 1250px;
+}
+
+#our .light {
+    font-weight: lighter;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .aboutt {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 250px;
+        margin: 0;
+        text-align: center;
+        font-family: arial;
+        float: left;
+        margin-left: 15px;
+        margin-bottom: 32px;
+    }
+
+
+
 }
