@@ -76,7 +76,7 @@ i {
 @media screen and (max-width: 6000px) {
   .navbar.responsive .icon {
     position: absolute;
-    right: 0;
+    right: 15px;
     bottom: 0;
   }
 
@@ -249,10 +249,16 @@ span {
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
+
+  .icon {
+    position: relative;
+    right: 15px;
+  }
+
   .icons {
     background-color: red;
     margin-bottom: 0;
-    width: 90%;
+    width: 104%;
   }
   .column {
     margin: 0;
