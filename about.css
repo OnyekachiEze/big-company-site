@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin-left: 50px;
+}
+
+.abt h2 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.abt hr {
+    width: 30px;
+    height: 4px;
+    background-color: red;
+    border-color: red;
+    margin-right: 1250px;
+}
+
+.abt p {
+    margin: 42px;
+}
+
+.aboutt {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+
+.about:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.about img {
+    width: 90%;
+}
+
+.about hr {
+    width: 30px;
+    height: 4px;
+    background-color: red;
+    border-color: red;
+    margin-right: 1250px;
+}
+
+.vertical {
+    border-left: 6px solid red;
+    height: 90px;
+    position:absolute;
+}
+
+.about p {
+    text-align: center;
+    font-style:oblique;
+    margin: 12px;
+}
