@@ -291,12 +291,11 @@ span {
     height: 450px;
     position: absolute;
     left: 100px;
-    top: 3000px;
   }
   
   ul {
     list-style-type: circle;
-    margin-left: 400px;
+    margin-left: 1120px;
   }
 
   li {
@@ -311,13 +310,12 @@ span {
 
   .v  {
     position: relative;
-    left: 450px;
-    text-align: center;
+    left: 120px;
   }
 
   .o {
     position: relative;
-    left: 330px;
+    left: 130px;
     text-align: center;
   }
   .left hr {
