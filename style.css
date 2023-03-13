@@ -71,10 +71,6 @@ i {
     width: 100%;
   }
 
-  .icons i {
-    margin-left: 12px;
-  }
-
 }
 
 @media screen and (max-width: 6000px) {
@@ -113,6 +109,14 @@ i {
     width: 50%;
     margin: auto;
     margin-top: 10%;
+  }
+
+  .chica {
+    float: none;
+    width: 20%;
+    height: 450px;
+    position: relative;
+    left: 200px;
   }
 
 }
@@ -203,6 +207,14 @@ span {
     margin-bottom: 0;
     width: 100%;
   }
+
+  .chica {
+    float: none;
+    width: 20%;
+    height: 450px;
+    position: relative;
+    left: 300px;
+  }
 }
 
 .business {
@@ -269,9 +281,10 @@ span {
   
   .chica {
     float: none;
-    width: 10%;
-    height: 300px;
-    margin-left: 1120px;
+    width: 50%;
+    height: 450px;
+    position: absolute;
+    left: 100px;
   }
   
   ul {
