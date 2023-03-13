@@ -32,8 +32,6 @@ main {
 
 .abt img {
     width: 75em;
-    height: 30em;
-    margin-left: 42px;
 }
 
 .about:after {
@@ -79,7 +77,6 @@ main {
 #our img {
     width: 30%;
     background-color: red;
-    padding: 100px;
     margin-left: 420px;
 }
 
