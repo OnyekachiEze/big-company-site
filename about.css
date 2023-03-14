@@ -99,6 +99,13 @@ main {
         margin-left: 10px;
     }
 
+    .abt h1 {
+        margin-top: 120px;
+        text-align: center;
+        background-color: darkgray;
+        padding:90px;
+    }
+
     .about {
         margin-top: 50px;
     }
